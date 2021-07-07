@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import { ReactComponentDesignerCard } from "./Components/React-States Styling/Assignment/ReactComponentDesignerCard/ReactComponentDesignerCard";
+import { ReactDesignerCardII } from "./Components/React-States Styling/Assignment/ReactDesignerCardII/ReactDesignerCardII";
 function App() {
 	return (
 		<div className="App">
-			<ReactComponentDesignerCard />
+			<ReactDesignerCardII />
 		</div>
 	);
 }
