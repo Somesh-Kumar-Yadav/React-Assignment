@@ -1,0 +1,187 @@
+{
+    "restaurant":
+    [
+        {
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },
+        {
+            "costforone": "57",
+            "url": "https://picsum.photos/801",
+            "title": "Brew",
+            "cash": "Y",
+            "card": "Y",
+            "totalvotes":"342",
+            "rating": "4.2",
+            "categories": "pizza,burger"
+        },{
+            "costforone": "30",
+            "url": "https://picsum.photos/802",
+            "title": "Avadh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"98",
+            "rating": "4.8",
+            "categories": "Continentnal"
+        },{
+            "costforone": "56",
+            "url": "https://picsum.photos/804",
+            "title": "Uri",
+            "cash": "Y",
+            "card": "N",
+            "totalvotes":"208",
+            "rating": "4.0",
+            "categories": "Burger"
+        },{
+            "costforone": "90",
+            "url": "https://picsum.photos/807",
+            "title": "Hutlers",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"422",
+            "rating": "4.5",
+            "categories": "Pizza,Salad"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/801",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        },{
+            "costforone": "60",
+            "url": "https://picsum.photos/800",
+            "title": "somesh",
+            "cash": "N",
+            "card": "Y",
+            "totalvotes":"432",
+            "rating": "4.5",
+            "categories": "chinese"
+        }
+    ]
+}

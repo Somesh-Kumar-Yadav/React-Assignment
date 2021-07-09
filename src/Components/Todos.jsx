@@ -1,21 +1,17 @@
 import React from "react"
-export function Todos() {
-    let [Name, setName] = React.useState("");
-    let [TodosList, setTodosList] = React.useState([]);
-    
+import { TodosInput } from "./TodosInput"
+import { TodosList } from "./TodosList"
+function Todos() {
+    let [Todos, setTodos] = React.useState([])
+    const HandleTodos = (item) => {
+        setTodos([...Todos,item])
+    }
+    const ToggleTodos = (item)=>{
+        item.id=!item.id
+    }
     return <>
-        <input onChange={(e) => {
-            setName(e.target.value)
-        }} type="text" placeholder="Enter your Name" />
-        <button onClick={() => {
-             setTodosList([...TodosList, Name])
-            
-        }}>Submit</button>
-        <ol>{
-            TodosList.map((el)=> {
-                return <li>{el}</li>
-            })
-        }
-        </ol>
+        <TodosInput HandleTodos={HandleTodos} Todos={ Todos }/>
+        <TodosList Todos={Todos} ToggleTodos={ToggleTodos }/>
     </>
 }
+export { Todos };
