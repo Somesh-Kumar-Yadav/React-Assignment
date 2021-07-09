@@ -16,7 +16,7 @@ function RestaurantForms() {
     }
     const SubmitData = (e) => {
         e.preventDefault()
-        const data = [...formData,payload]
+        const data = [payload,...formData]
         setFormData(data);
         setFilterData(data);
     }
@@ -58,13 +58,17 @@ function RestaurantForms() {
         let st;
         if (str === "cash" || str === "card") {
             if (str === "cash") {
-                 st = "card"
-            } else {
-                st="cash"
-            }
-            data=data.filter((a) => {
+                st="card"
+                data=data.filter((a) => {
                 return a[str] === "Y"&& a[st]==="N";
             })
+            } else {
+               st="card"
+                data=data.filter((a) => {
+                return a[str] === "Y";
+            })
+            }
+            
         }
         
     setFilterData([...data]);
@@ -89,7 +93,7 @@ function RestaurantForms() {
         <button onClick={()=>Filter(3)}>Rating 3+</button>
         <button onClick={()=>Filter(2)}>Rating 2+</button>
         <button onClick={()=>Filter(1)}>Rating 1+</button>
-        <button onClick={()=>FilterOut("card")}>Card Only Accepted</button>
+        <button onClick={()=>FilterOut("card")}>Card Accepted</button>
         <button onClick={()=>FilterOut("cash")}>Cash Only Accepted</button>
         <button onClick={()=>FilterOut("")}>All</button>
         </div>
