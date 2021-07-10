@@ -1,9 +1,12 @@
 import React from "react";
 import "./App.css";
-import { Restaurant } from "./Components/React-List/Assignment/Restraurant";
-
+import { Todos } from "./Components/React-Uplifting/Assignment/Todos";
 function App() {
-	return <Restaurant />;
+	return (
+		<div>
+			<Todos />
+		</div>
+	);
 }
 
 export default App;
