@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import { Todos } from "./Components/React-Uplifting/Assignment/Todos";
+import { Clock } from "./Components/React-Usestate/Clock/Clock";
 function App() {
 	return (
-		<div>
-			<Todos />
+		<div className="App">
+			<Clock></Clock>
 		</div>
 	);
 }
