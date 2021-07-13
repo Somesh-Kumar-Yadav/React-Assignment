@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import { Clock } from "./Components/React-UseEffect/Clock/Clock";
+import { Timer } from "./Components/React-UseEffect/Timer/Timer";
 function App() {
 	return (
 		<div className="App">
-			<Clock></Clock>
+			<Timer></Timer>
 		</div>
 	);
 }
