@@ -5,25 +5,21 @@ const Clock =()=> {
 	let [hours, setHours] = React.useState(0);
     let [show, setShow] = React.useState(true);
 
-    const display = () => {
-        setShow(!show);
-    }
-    const start = () => {
-        setInterval(() => {
-            seconds += 1;
-        if (seconds === 60) {
-            minutes += 1;
-            seconds = 0;
-            if (minutes === 60) {
-                hours += 1;
-                minutes = 0;
-            }
-            }
-            
-        setSeconds(seconds)
-        setMinutes(minutes)
-        setHours(hours)
-        },1000)
+    const start = (v) => {
+        let id;
+        if (v) {
+            id = setInterval(() => {
+                seconds = new Date().getSeconds();
+                minutes = new Date().getMinutes();
+                hours = new Date().getHours();
+                setSeconds(seconds)
+                setMinutes(minutes)
+                setHours(hours)
+            },1000)
+        } else {
+            setShow(!show);
+            clearInterval(id);
+        }
         
     }
 	
@@ -31,10 +27,10 @@ const Clock =()=> {
 		<div className="App">
             {show&&<h3>{hours} : {minutes} : {seconds}</h3>}
             <button onClick={() => {
-                start(0,0,0);
+                start(true);
             }}>Start</button>
             <button onClick={() => {
-                display();
+                start(false);
             }}>{show?"Hide Clock":"Show Clock" }</button>
 		</div>
 	);

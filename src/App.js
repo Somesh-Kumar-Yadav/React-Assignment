@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Clock } from "./Components/React-Usestate/Clock/Clock";
+import { Clock } from "./Components/React-UseEffect/Clock/Clock";
 function App() {
 	return (
 		<div className="App">
