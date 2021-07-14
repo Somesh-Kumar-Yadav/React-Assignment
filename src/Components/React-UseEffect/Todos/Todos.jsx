@@ -3,7 +3,7 @@ import axios from "axios"
 import {v4 as uuid} from "uuid"
 
 function Todos() {
-    const [todos, setTodos] = React.useState("")
+    const [todos, setTodos] = React.useState("")s
     const [todosList, setTodosList] = React.useState([]);
     let [page, setPage] = React.useState(1);
     React.useEffect(() => {
@@ -11,7 +11,7 @@ function Todos() {
             getTodos()
         }, 1000)
 
-    }, [todosList]);
+    }, [todosList,page]);
 
   const setTodo=(data) => {
       let arr = [];
